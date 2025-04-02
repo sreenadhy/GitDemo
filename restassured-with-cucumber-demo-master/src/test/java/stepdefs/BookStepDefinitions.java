@@ -69,7 +69,15 @@ public class BookStepDefinitions {
 		response = request.when().get(ENDPOINT_GET_BOOK_BY_ISBN);
 		System.out.println("response: " + response.prettyPrint());
 	}
-
+	@When("user2")
+	public void user2(){
+		response = request.when().get(ENDPOINT_GET_BOOK_BY_ISBN);
+		System.out.println("response: " + response.prettyPrint());
+	}@When("user")
+	public void user3(){
+		response = request.when().get(ENDPOINT_GET_BOOK_BY_ISBN);
+		System.out.println("response: " + response.prettyPrint());
+	}
 }
 
 

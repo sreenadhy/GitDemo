@@ -13,4 +13,24 @@ Feature: Get book by ISBN
 
 Scenario: user login
 Given user
+Given user2
+Given user3
+When thebnb
+
+Scenario: user login
+Given user
+Given user2
+Given user3
+When thebnb
+
+Scenario: user login
+Given user
+Given user2
+Given user3
+When thebnb
+
+Scenario: user login
+Given user
+Given user2
+Given user3
 When thebnb

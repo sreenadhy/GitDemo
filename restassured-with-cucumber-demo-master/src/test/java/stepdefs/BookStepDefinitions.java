@@ -64,6 +64,12 @@ public class BookStepDefinitions {
 			}
 		}
 	}
+	@When("user")
+	public void user(){
+		response = request.when().get(ENDPOINT_GET_BOOK_BY_ISBN);
+		System.out.println("response: " + response.prettyPrint());
+	}
+
 }
 
 

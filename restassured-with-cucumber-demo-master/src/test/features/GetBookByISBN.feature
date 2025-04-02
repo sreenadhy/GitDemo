@@ -11,3 +11,6 @@ Feature: Get book by ISBN
 	| items.volumeInfo.publisher 				| Simon and Schuster	|   
 	| items.volumeInfo.pageCount 				| 630					|
 
+Scenario: user login
+Given user
+When thebnb
